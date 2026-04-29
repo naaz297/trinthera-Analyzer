@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trinethra Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Supervisor Feedback Analyzer</h1>
+
+    <textarea id="transcript" placeholder="Paste transcript here..."></textarea>
+
+    <button onclick="analyze()">Run Analysis</button>
+
+    <div id="loading" class="hidden">Analyzing...</div>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
